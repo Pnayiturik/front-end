@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alu intranet</title>
+    <style>
+        *{
+            margin: 0%;
+            background-color: #edefef;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-transform: capitalize;
+            box-sizing: border-box;
+            color: darkblue;
+            
+        }
+        .form1{
+         max-width: 400px;    
+         margin: 40PX auto;
+         padding: 60px; 
+         background-color:white;
+         border: solid 0px; 
+         text-align: center;
+         border-radius: 5px;
+
+        
+
+        }
+        .img{
+            max-width: 75px;
+            max-height: 75px;
+        }
+        .input{
+            padding: 10PX;
+            margin: 5px auto;
+            width: 100%;
+            border:  1px solid lightgray;
+            
+        }
+        .btn{
+            max-width:200px ;
+            max-height: 200px;
+            cursor: pointer;
+            display: block;
+            padding: 5px;
+            margin: 20px auto;
+            color: white;
+            background-color:red;
+            border: 0px; 
+        }
+        a{
+            text-decoration: none;
+            color: rgb(154, 13, 41);
+            background: none;
+            text-transform: capitalize;
+    
+        }
+
+
+    </style>
+</head>
+<body>
+     <form action="" class="form1">
+        <img class="img" src="data:image/jpeg;base64,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" alt=""><br>
+        email 
+        <input class="input"  type="email" >
+        password <br>
+        <input class="input" type="password" >
+        <input type="checkbox">
+        remember me 
+        <button class="btn">login</button>
+        <a href="">forgot your password</a>
+     </form>
+    
+</body>
+</html>
